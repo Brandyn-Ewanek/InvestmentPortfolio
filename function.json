@@ -11,14 +11,14 @@
         "name": "inputBlob",
         "type": "blobTrigger",
         "direction": "in",
-        "path": "illuminadata/{name}",
+        "path": "StockCollectionFunction/{name}",
         "connection": "DefaultEndpointsProtocol=https;AccountName=illumiastrategiesdata;AccountKey=1vH4GiLVmLWZRbDmFMq/bHQEPMXhcDm3lK7rj1c7q7RLeuHHVZMKfg6RydryJ3tXcGYTWI6TX6bw+AStwORDkQ==;EndpointSuffix=core.windows.net"
       },
       {
         "name": "outputBlob",
         "type": "blob",
         "direction": "out",
-        "path": "illuminadata/{name}",
+        "path": "StockCollectionFunction/{name}",
         "connection": "DefaultEndpointsProtocol=https;AccountName=illumiastrategiesdata;AccountKey=1vH4GiLVmLWZRbDmFMq/bHQEPMXhcDm3lK7rj1c7q7RLeuHHVZMKfg6RydryJ3tXcGYTWI6TX6bw+AStwORDkQ==;EndpointSuffix=core.windows.net"
       }
     ]
