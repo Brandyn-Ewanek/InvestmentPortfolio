@@ -1,0 +1,20 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+# python==3.22.*
+# azure-functions==1.20.0
+# pandas~=2.1.4
+# google-generativeai~=0.7.2
+# yfinance==0.2.41
+# azure-storage-blob==12.22.0
+# logging==0.5.1.2
+# json==2.0.9
+# datetime==3.10.12
+
+python==3.12.*
+azure-functions==1.10.2
+pandas~=2.1.4
+google-generativeai~=0.7.2
+yfinance==0.2.41
+azure-storage-blob==12.22.0
